@@ -1,0 +1,73 @@
+body {
+  font-family: Arial Narrow;
+  background-color: #949691;
+  background-size: 100%;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.container{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+
+
+}
+
+h2 {
+  background-color: #b4b6b2 !important;
+  border: 1px solid !important;
+}
+
+.header,
+.hero {
+  font-style: normal !important;
+  font-family: fantasy !important;
+  font-size: 30px !important;
+  text-align: center !important;
+}
+
+.col-md-4,
+.h3 {
+  text-align: center;
+}
+
+
+.card {
+  width: 20rem;
+  border-radius: 25px;
+  top: 50%;
+  background: inherit !important;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(10px) !important;
+  margin: 10px;
+  text-align: center;
+}
+
+.card-content{
+justify-items: center;
+display: grid;
+grid-template-columns: repeat(2, 1fr) !important;
+}
+
+h3 {
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+h3,
+h4 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  position: a;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
