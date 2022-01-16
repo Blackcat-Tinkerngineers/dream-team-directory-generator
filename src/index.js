@@ -1,7 +1,10 @@
-const inquirer = require('inquirer');
+const Inquirer = require('inquirer');
+const React = require('react');
+const ReactDOM = require('react-dom');
 
-inquirer
-  .prompt([
+  const inquirer = () => {
+
+  }
     {
       type: 'list',
       name: 'employee_name',

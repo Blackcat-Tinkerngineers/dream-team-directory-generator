@@ -1,12 +1,12 @@
 const Employee = require('../lib/Employee');
+
+test('this calls the name of the employee', () => {
+    const employe_name = 'Employee'
+}
+)
  
 
-test('create an employee object', () => {
-    const employee = new Employee();
-    expect(typeof(employee)).toBe('object');
-});
-
-test('get employees name from the employee object', () => {
+test('the name of the employee is', () => {
     const name ='newName';
     const employee = new Employee(name);
     expect(employee.name).toBe(name);
