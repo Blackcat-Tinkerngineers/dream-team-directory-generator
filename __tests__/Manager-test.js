@@ -1,44 +1,20 @@
-test('get officeNumber', done => {
-    function callback(data) {
-      try {
-        expect(data).toBe('officeNumber');
-        done();
-      } catch (error) {
-        done(error);
-      }
-    }
-  
-    fetchData(callback);
-  });
+const Manager = require("../lib/Manager");
+const Employee = require("../lib/Employee");
 
-  const Manager = require('../lib/Manager');
-
-test('get Office number', () => {
-    const name = 'newname';
-    const id = '0';
-    const email = 'test@example.com';
-    const office= 'office';
-    const employee = new Manager(name, id, email, office);
-
-    expect(employee.office).toBeDefined();
+test("Can set office number via constructor argument", () => {
+  const testValue = 100;
+  const e = new Manager("Foo", 1, "test@test.com", testValue);
+  expect(e.officeNumber).toBe(testValue);
 });
 
-test(' test getRole() to render Manager', () => {
-    const name = 'newname';
-    const id ='0';
-    const email = 'test@example.com';
-    const office = 'office';
-    const role = 'Manager';
-    const employee = new Manager(name, id, email, office, role);
-
-    expect(employee.getRole()).toBe(role);
+test("getRole() should return \"Manager\"", () => {
+  const testValue = "Manager";
+  const e = new Manager("Foo", 1, "test@test.com", 100);
+  expect(e.getRole()).toBe(testValue);
 });
 
-test('test getOffice()', () => {
-    const name = 'newname';
-    const id = '0';
-    const email = 'test@example.com';
-    const office = 'office';
-    const employee = new Manager(name, id, email, office);
-     
-    expect(employee.getOffice).toBeDefined();
+test("Can get office number via getOffice()", () => {
+  const testValue = 100;
+  const e = new Manager("Foo", 1, "test@test.com", testValue);
+  expect(e.getOfficeNumber()).toBe(testValue);
+});

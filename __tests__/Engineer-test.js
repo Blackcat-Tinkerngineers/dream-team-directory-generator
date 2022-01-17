@@ -1,33 +1,19 @@
-const { expect } = require('@jest/globals');
-const { test } = require('picomatch');
-const Engineer = require('../lib/Engineer');
+const Engineer = require("../lib/Engineer");
 
-test('github username', () => {
-    const name ='newName';
-    const ID = '0';
-    const email = 'test@example.com';
-    const github = 'username';
-    const employee = new Engineer(name,ID,email,github);
-    expect(employee.github).toBe(github);
+test("Can set GitHUb account via constructor", () => {
+  const testValue = "GitHubUser";
+  const e = new Engineer("Foo", 1, "test@test.com", testValue);
+  expect(e.github).toBe(testValue);
 });
 
-test('getHub()', () => {
-    const name ='newName';
-    const ID = '0';
-    const email = 'test@example.com';
-    const github = 'username';
-    const employee = new Engineer(name,ID,email,github);
-    expect(employee.github).toBe(github);
+test("getRole() should return \"Engineer\"", () => {
+  const testValue = "Engineer";
+  const e = new Engineer("Foo", 1, "test@test.com", "GitHubUser");
+  expect(e.getRole()).toBe(testValue);
 });
 
-test('getRole()', () => {
-    const name ='newName';
-    const ID = '0';
-    const email = 'test@example.com';
-    const github = 'username';
-    const role = 'Engineer';
-    const employee = new Engineer(name,ID,email,github);
-    expect(employee.getRole.toBe(role)
-);
+test("Can get GitHub username via getGithub()", () => {
+  const testValue = "GitHubUser";
+  const e = new Engineer("Foo", 1, "test@test.com", testValue);
+  expect(e.getGithub()).toBe(testValue);
 });
-
