@@ -2,13 +2,28 @@
 
 # Title: Dream Team Profile Generator
 
-![dream-team](https://user-images.githubusercontent.com/88634637/149704610-f3c660fb-c29a-4991-bbc4-e720df10939a.png)
-<br>
+<p>Example pictures of project:</p>
+
 ![dream-team-sample-html](https://user-images.githubusercontent.com/88634637/149704621-ec005727-cc48-4973-b597-c0a8994e4334.png)
+
 <br>
+</br>
+
+<p> Image below created with HTML & CSS </p>
+
+![dream-team](https://user-images.githubusercontent.com/88634637/149704610-f3c660fb-c29a-4991-bbc4-e720df10939a.png)
+
+<br>
+</br>
+
+
 
 ## Live Demo via VSCode
-https://drive.google.com/file/d/1L0X8wtQQ9vo27N1wOj6tnZ9dID9vhpJE/preview
+
+<h4> Scan QR Code to view a recorded video of Terminal presentation</h4>
+
+![image](https://user-images.githubusercontent.com/88634637/152850468-e1cd2d77-830f-4a76-b77b-bad117d06d1f.png)
+
 
 
 
@@ -99,11 +114,16 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <!-- CONTACT -->
 ## Contact Information
 
-* Twitter
-* [https://twitter.com/clbgonsalves](https://twitter.com/clbgonsalves) 
-* Email
-* [clbgonsalves@gmail.com](clbgonsalves@gmail.com)
-
-Project Link: [https://github.com/Blackcat-Tinkerngineers/team-profile-generator](https://github.com/Blackcat-Tinkerngineers/team-profile-generator)
+<a href="https://twitter.com/clbgonsalves">https://twitter.com/clbgonsalves</a>
+<br>
+</br>
+<a href="clbgonsalves@gmail.com">clbgonsalves@gmail.com</a>
+<br>
+</br>
+<a href="https://www.linkedin.com/in/chelsiebgonsalves">https://www.linkedin.com/in/chelsiebgonsalves</a>
+<br>
+</br>
+<p>Github URL:</g>
+<a href="https://github.com/Blackcat-Tinkerngineers/team-profile-generator">https://github.com/Blackcat-Tinkerngineers/team-profile-generator</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
