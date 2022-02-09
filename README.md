@@ -22,7 +22,10 @@
 
 <h4> Scan QR Code to view a recorded video of Terminal presentation</h4>
 
-![image](https://user-images.githubusercontent.com/88634637/152850468-e1cd2d77-830f-4a76-b77b-bad117d06d1f.png)
+![image](https://user-images.githubusercontent.com/88634637/153128593-53fa0234-acc8-460a-9d3a-cad60a3fa9c8.png)
+
+
+<a href="https://drive.google.com/file/d/1ly16Gy6Rm53_k9WXBO8g9mc9Y2O6Xur1/preview">https://drive.google.com/file/d/1ly16Gy6Rm53_k9WXBO8g9mc9Y2O6Xur1/preview</a>
 
 
 
