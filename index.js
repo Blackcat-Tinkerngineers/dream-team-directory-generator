@@ -43,7 +43,6 @@ inquirer.prompt([
     type: 'input',
     name: 'managerEmail',
     message: "What is your manager's email?",
-    default: 'npm i'
   },
   {
     type: 'input',

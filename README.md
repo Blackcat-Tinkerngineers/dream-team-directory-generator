@@ -127,6 +127,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <br>
 </br>
 <p>Github URL:</g>
-<a href="https://github.com/Blackcat-Tinkerngineers/team-profile-generator">https://github.com/Blackcat-Tinkerngineers/team-profile-generator</a>
+<a href="https://github.com/Blackcat-Tinkerngineers/dream-team-directory-generator">https://github.com/Blackcat-Tinkerngineers/dream-team-directory-generator/a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
